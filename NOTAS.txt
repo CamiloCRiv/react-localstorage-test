@@ -1,0 +1,14 @@
+onSubmit es un evento de envio, tipicamente envia datos a un servidor, tambien se puede utilizar para capturar los datos antes de que se envien en casos que no haya algun servidor // ¿los onSubmit ejecutados en <form> (formularios, escuchan cada que algo se envia no solo cuando el botón es clickead sino tambien cuando se envian los datos presionando la tecla ENTER)
+
+
+
+
+NOTAS: 
+
+- EL localStorage espera una clave y un valor para poder guardar esos datos, es como un JSON
+- Cuando los botones no tienen un onClick este enviara el evento del formulario (<form onSubmit-{alguna funcion que se ejecutara})
+- Los useState se deben ejecutar antes de retornar lo que hay en la funcion
+-Los metodos de los arreglos se pueden encadenar ejemplo (filter. map)
+-useEffect siempre esta escuchando
+- Los input no pueden ser hijos de tr pero si de td, los cuales son hijos de tr
+- .container lo que se agregue aqui adentro se centrara, basicamente lo que hace es agregarle un espaciado a los lados
